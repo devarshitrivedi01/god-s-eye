@@ -1,0 +1,8 @@
+1. Should be able to store DS and GAP analysis
+2. Respective PS can see data of their team
+3. Check each doctype permission
+4. Status in Gap Analysis type of field should be computed
+5. Gap outcome should be computed
+6. Stackholders can be able to see statastics for whole employee
+7. Make index for necessery fields
+8. Check each doctype permissions

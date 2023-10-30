@@ -1,0 +1,87 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2023-10-30 17:28:17.762054",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "ds_date",
+  "project",
+  "yesterday_work",
+  "blockings",
+  "today_work",
+  "action_items"
+ ],
+ "fields": [
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Series",
+   "options": "DS-.YYYY.-"
+  },
+  {
+   "fieldname": "ds_date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "project",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Project",
+   "options": "Project",
+   "reqd": 1
+  },
+  {
+   "fieldname": "yesterday_work",
+   "fieldtype": "Text",
+   "label": "Yesterday Work "
+  },
+  {
+   "fieldname": "blockings",
+   "fieldtype": "Text",
+   "label": "Blockings"
+  },
+  {
+   "fieldname": "today_work",
+   "fieldtype": "Text",
+   "label": "Today Work"
+  },
+  {
+   "fieldname": "action_items",
+   "fieldtype": "Table",
+   "label": "Action Items",
+   "options": "Action Items"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-10-30 17:28:17.762054",
+ "modified_by": "Administrator",
+ "module": "God_eye",
+ "name": "Daily Standup",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
