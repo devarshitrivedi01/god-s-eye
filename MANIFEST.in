@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include god_eye *.css
+recursive-include god_eye *.csv
+recursive-include god_eye *.html
+recursive-include god_eye *.ico
+recursive-include god_eye *.js
+recursive-include god_eye *.json
+recursive-include god_eye *.md
+recursive-include god_eye *.png
+recursive-include god_eye *.py
+recursive-include god_eye *.svg
+recursive-include god_eye *.txt
+recursive-exclude god_eye *.pyc
