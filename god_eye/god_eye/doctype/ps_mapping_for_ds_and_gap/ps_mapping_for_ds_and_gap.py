@@ -6,3 +6,7 @@ from frappe.model.document import Document
 
 class PSMappingforDSandGAP(Document):
 	pass
+
+
+# @frappe.whitelist()
+# def getEmployeeName(emp_id):

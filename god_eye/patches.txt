@@ -1,4 +1,3 @@
 [pre_model_sync]
 
 [post_model_sync]
-god_eye.patches.post_install.create_god_eye_maintainer_role

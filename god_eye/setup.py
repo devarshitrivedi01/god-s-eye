@@ -25,5 +25,5 @@ def run_post_install_patches():
 
 def get_post_install_patches():
     return (
-        "god_eye.patches.post_install.create_god_eye_maintainer_role"
+        
     )

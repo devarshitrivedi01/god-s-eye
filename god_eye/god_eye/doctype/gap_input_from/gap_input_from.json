@@ -20,7 +20,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-11-02 19:15:21.799016",
+ "modified": "2023-11-02 19:41:18.710765",
  "modified_by": "Administrator",
  "module": "God_eye",
  "name": "Gap Input From",
@@ -47,7 +47,7 @@
    "print": 1,
    "read": 1,
    "report": 1,
-   "role": "God's Eye Maintainer",
+   "role": "HR Manager",
    "share": 1,
    "write": 1
   },
@@ -59,9 +59,18 @@
    "print": 1,
    "read": 1,
    "report": 1,
-   "role": "Employee",
+   "role": "HR User",
    "share": 1,
    "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Employee",
+   "share": 1
   }
  ],
  "sort_field": "modified",

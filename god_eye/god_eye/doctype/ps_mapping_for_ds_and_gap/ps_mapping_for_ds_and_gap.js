@@ -5,4 +5,13 @@ frappe.ui.form.on('PS Mapping for DS and GAP', {
 	// refresh: function(frm) {
 
 	// }
-});
+	onload: function(frm) {
+		if(length(frm.doc.ps)) {
+
+		}
+	},
+
+	ps: function(frm) {
+
+	}
+ });
