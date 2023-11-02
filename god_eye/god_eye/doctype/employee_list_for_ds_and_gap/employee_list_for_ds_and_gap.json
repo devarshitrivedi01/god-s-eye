@@ -8,7 +8,8 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "employee"
+  "employee",
+  "employee_name"
  ],
  "fields": [
   {
@@ -17,12 +18,18 @@
    "label": "Employee",
    "options": "Employee",
    "unique": 1
+  },
+  {
+   "fieldname": "employee_name",
+   "fieldtype": "Data",
+   "is_virtual": 1,
+   "label": "Employee Name"
   }
  ],
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2023-10-30 17:46:19.310847",
+ "modified": "2023-11-02 20:05:14.526118",
  "modified_by": "Administrator",
  "module": "God_eye",
  "name": "Employee List for DS and GAP",
